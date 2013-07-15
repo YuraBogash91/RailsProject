@@ -1,0 +1,20 @@
+<% if@items.empty? %>
+    <b>No items in store</b>
+<% else %>
+<table>
+  <tr>
+    <th>item id</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+
+</table>
+
+
+<% @items.each do |i| %>
+   <tr>
+     <td><%=  %></td>
+     <p><%= link_to i.name, item_path(i) %></p>
+   </tr>
+<% end %>
