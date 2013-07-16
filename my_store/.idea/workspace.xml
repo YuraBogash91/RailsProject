@@ -7,7 +7,7 @@
     <file path="/.gitignore" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373878974480" ignored="false" />
     <file path="/20130715091428_create_items.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373883621072" ignored="false" />
     <file path="/20130715094657_add_description_column_to_items.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373881814627" ignored="false" />
-    <file path="/item.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373961861587" ignored="false" />
+    <file path="/item.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373964596042" ignored="false" />
     <file path="/items_controller.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373908709497" ignored="false" />
     <file path="/routes.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373907126098" ignored="false" />
     <file path="/new.html.erb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373893230665" ignored="false" />
@@ -21,13 +21,16 @@
     <file path="/Gemfile" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373957213762" ignored="false" />
     <file path="/20130716065414_create_users.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373957755868" ignored="false" />
     <file path="/20130716065429_create_carts.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373957805234" ignored="false" />
-    <file path="/user.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373959578516" ignored="false" />
+    <file path="/user.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373962764185" ignored="false" />
     <file path="/cart.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373961887330" ignored="false" />
     <file path="/order.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373960102506" ignored="false" />
     <file path="/20130716071648_create_orders.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373959168874" ignored="false" />
     <file path="/20130716073710_create_carts_items.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373960397123" ignored="false" />
     <file path="/20130716075438_create_positions.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373961412074" ignored="false" />
     <file path="/position.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373961954852" ignored="false" />
+    <file path="/20130716081745_create_comments.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373964459250" ignored="false" />
+    <file path="/comment.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373964748878" ignored="false" />
+    <file path="/20130716083619_create_blog_posts.rb" changelist="b9c2f758-a6f2-422c-a596-ada0d4a151de" time="1373964315587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +54,19 @@
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="item.rb" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="item.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/models/item.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="11" selection-start="454" selection-end="454" vertical-scroll-proportion="0.48951048">
+                    <state line="15" column="2" selection-start="485" selection-end="521" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="blog_post.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/models/blog_post.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="1" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.035799522">
                       <folding />
                     </state>
                   </provider>
@@ -63,7 +75,16 @@
               <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/models/user.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="7" column="17" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+                    <state line="6" column="27" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="comment.rb" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="1" column="69" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -97,10 +118,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="position.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="position.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/position.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="16" selection-start="84" selection-end="84" vertical-scroll-proportion="0.033259425">
+                <state line="6" column="12" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20130716081745_create_comments.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20130716081745_create_comments.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20130716083619_create_blog_posts.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20130716083619_create_blog_posts.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="21" selection-start="141" selection-end="141" vertical-scroll-proportion="0.06825939">
                   <folding />
                 </state>
               </provider>
@@ -118,22 +157,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/items/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/public/403.html" />
-        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130716065414_create_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130716065429_create_carts.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130716071648_create_orders.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130716073710_create_carts_items.rb" />
         <option value="$PROJECT_DIR$/app/models/order.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130716075438_create_positions.rb" />
         <option value="$PROJECT_DIR$/app/models/cart.rb" />
-        <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/app/models/position.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130716083619_create_blog_posts.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130716081745_create_comments.rb" />
+        <option value="$PROJECT_DIR$/app/models/item.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/models/blog_post.rb" />
       </list>
     </option>
   </component>
@@ -732,40 +771,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/test.sqlite3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715091428_create_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -822,9 +827,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/position.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+        <state line="6" column="27" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -838,14 +850,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/item.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="454" selection-end="454" vertical-scroll-proportion="0.48951048">
+        <state line="15" column="2" selection-start="485" selection-end="521" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/position.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="84" selection-end="84" vertical-scroll-proportion="0.033259425">
+        <state line="1" column="69" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/blog_post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.035799522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130716081745_create_comments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130716083619_create_blog_posts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="141" selection-end="141" vertical-scroll-proportion="0.06825939">
           <folding />
         </state>
       </provider>
