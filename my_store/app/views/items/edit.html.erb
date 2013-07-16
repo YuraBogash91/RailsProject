@@ -1,9 +1,6 @@
 <h1>Edit Item</h1>
 
 <%= form_for @item do |f| %>
-    <p>Price<br/> <%= f.text_field :price  %>  </p>
-    <p>Name</p> <%= f.text_field :name  %>      </p>
-    <p>Description</p> <%= f.text_field :description  %>  </p>
-    <p>Weight</p> <%= f.text_field :weight  %> </p>
+    <%= render partial: "share/form", locals: {f: f} %>
     <p> <%= f.submit "Save changes" %> </p>
 <% end %>
