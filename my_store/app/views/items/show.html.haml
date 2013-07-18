@@ -1,0 +1,10 @@
+%h3 Show
+
+%h1= @item.name
+
+%ul
+    %li= urls_to_link (urls_to_images(@item.description))
+    %li=@item.price
+    %li=@item.weight
+
+%h2=link_to "Edit", "#{item_path(@item)}"+"/edit"

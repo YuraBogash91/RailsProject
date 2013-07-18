@@ -1,15 +1,114 @@
-<!DOCTYPE html>
-<html>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Modern
+Description: A two-column, fixed-width design.
+Version    : 1.0
+Released   : 20080608
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>MyStore</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <%= link_to "Home Page", "/items" %>
+
 </head>
 <body>
 
-<%= yield %>
+<div id="wrapper">
+  <div id="wrapper-top">
+    <div id="wrapper-btm">
 
+      <!-- start header -->
+      <div id="header">
+        <h1>Modern </h1>
+        <p> design By Free CSS Templates</p>
+      </div>
+      <!-- end header -->
+      <!-- start page -->
+
+      <div id="page">
+        <div class="bgtop">
+          <div class="bgbtm">
+            <!-- start content -->
+            <div id="content">
+              <div class="post">
+                <center> <%= yield %></center>
+               </div>
+            </div>
+            <!-- end content -->
+            <!-- start sidebar -->
+            <div id="sidebar">
+              <ul>
+                <li>
+                  <h2>Main menu</h2>
+                  <ul>
+                    <li> <%= link_to "Home Page", "/items" %></li>
+
+                  </ul>
+                </li>
+                <li>
+                  <h2>Categories</h2>
+                  <ul>
+                    <li><a href="#">Aliquam liberonare</a></li>
+                    <li><a href="#">Consectetuer adipiscing</a></li>
+                    <li><a href="#">Metusin  pellentesque</a></li>
+                    <li><a href="#">Suspendisse  maurisres</a></li>
+                    <li><a href="#">Urnanet  molestie semper</a></li>
+                    <li><a href="#">Proin gravida  porttitor</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h2>Blogroll</h2>
+                  <ul>
+                    <li><a href="#">Aliquam liberonare</a></li>
+                    <li><a href="#">Consectetuer adipiscing</a></li>
+                    <li><a href="#">Metusin  pellentesque</a></li>
+                    <li><a href="#">Suspendisse  maurisres</a></li>
+                    <li><a href="#">Urnanet  molestie semper</a></li>
+                    <li><a href="#">Proin gravida  porttitor</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h2>Lorem Ipsum Dolor</h2>
+                  <ul>
+                    <li><a href="#">Aliquam liberonare</a></li>
+                    <li><a href="#">Consectetuer adipiscing</a></li>
+                    <li><a href="#">Metusin  pellentesque</a></li>
+                    <li><a href="#">Proin gravida  porttitor</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h2>Archives</h2>
+                  <ul>
+                    <li><a href="#">September</a> (23)</li>
+                    <li><a href="#">August</a> (31)</li>
+                    <li><a href="#">July</a> (31)</li>
+                    <li><a href="#">June</a> (30)</li>
+                    <li><a href="#">May</a> (31)</li>
+                    <li><a href="#">April</a> (30)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- end sidebar -->
+            <div style="clear:both">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <p>&copy;2013 All Rights Reserved &nbsp;&bull;&nbsp; Design by <a href="https://vk.com/id21546679">Yuriy Bogash</a> &nbsp;&bull;&nbsp;			<div style="display:none;"></div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

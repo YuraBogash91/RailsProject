@@ -7,6 +7,9 @@
     <th>Name</th>
     <th>Price</th>
     <th> </th>
+    <th> </th>
+    <th> </th>
+    <th> </th>
   </tr>
 
 
@@ -17,10 +20,14 @@
      <td><%= i.id %></td>
      <td><%= link_to i.name, item_path(i) %></td>
      <td><%= i.price %></td>
+     <td><%= link_to "Edit", "#{item_path(i)}"+"/edit" %></td>
      <td><%= link_to "Delete", i, method: :delete, data:{confirm:"Are you sure?"}%></td>
-     <td>Rate: <%= i.votes_count %>, <%= link_to "+", upvote_item_path(i) %> </td>
+     <td>Rate: <%= i.votes_count %> <%= link_to "+", upvote_item_path(i) %> </td>
    </tr>
 
 <% end %>
 </table>
+
 <% end %>
+<br/>
+<%= link_to "Add new item", "/items/new" %>
